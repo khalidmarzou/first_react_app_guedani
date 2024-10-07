@@ -13,10 +13,10 @@ function Main() {
                 <h3 className="text-xl">This is how your company is doing it</h3>
             </div>
             <div className="flex gap-4 w-full justify-evenly">
-                <MainCard icon={{type:"fa-regular", icon:"fa-eye", color:"text-blue-300"}} content="Impressions" statistique={100} position={0.02} />
-                <MainCard icon={{type:"fa-solid", icon:"fa-computer-mouse", color:"text-blue-800"}} content="Clicks" statistique={100} position={-0.02} />
-                <MainCard icon={{type:"fa-solid", icon:"fa-magnet", color:"text-green-300"}} content="Engagements" statistique={100} position={0.02} />
-                <MainCard icon={{type:"fa-solid", icon:"fa-camera-retro", color:"text-purple-300"}} content="Posts" statistique={100} position={0.02} />
+                <MainCard icon={{type:"fa-regular", icon:"fa-eye", color:"text-blue-300"}} content="Impressions" statistique={{statistique: 9500, color: "text-blue-800"}} position={0.03} />
+                <MainCard icon={{type:"fa-solid", icon:"fa-computer-mouse", color:"text-blue-800"}} content="Clicks" statistique={{statistique: 4300, color:"text-lime-950"}} position={2.78} />
+                <MainCard icon={{type:"fa-solid", icon:"fa-magnet", color:"text-green-300"}} content="Engagements" statistique={{statistique:21000,color:"text-green-800"}} position={-2.01} />
+                <MainCard icon={{type:"fa-solid", icon:"fa-camera-retro", color:"text-purple-300"}} content="Posts" statistique={{statistique:147, color:"text-purple-800"}} position={1.02} />
             </div>
             <div className="bg-white p-5 rounded-md">
                 <h1 className="text-3xl">Total Audience By Region</h1>
