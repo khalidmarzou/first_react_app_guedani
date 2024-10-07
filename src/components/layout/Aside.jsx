@@ -1,6 +1,5 @@
 import UserCard from "../cards/UserCard";
 import AsideButton from "../buttons/AsideButton";
-import HeaderButton from "../buttons/HeaderButton";
 
 function Aside() {
   return (
